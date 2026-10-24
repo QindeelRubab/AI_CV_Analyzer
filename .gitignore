@@ -1,4 +1,19 @@
-venv/
+# Python bytecode/cache
 __pycache__/
-*.pyc
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Local environment/config
 .env
+
+# CVs and generated reports: do not upload private documents
+cv_files/
+*_analysis_report.txt
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
